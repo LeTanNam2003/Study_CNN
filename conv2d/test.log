@@ -1,0 +1,2154 @@
+
+C:\Personal\final_graduate\study_CNN\Study_CNN\conv2d>python main.py
+[INIT] Kernels shape: (64, 3, 3, 3)
+[INIT] Kernels shape: (64, 64, 3, 3)
+[INIT] Kernels shape: (128, 64, 3, 3)
+[INIT] Kernels shape: (128, 128, 3, 3)
+[INIT] Kernels shape: (256, 128, 3, 3)
+[INIT] Kernels shape: (256, 256, 3, 3)
+[INIT] Kernels shape: (256, 256, 3, 3)
+[INIT] Kernels shape: (512, 256, 3, 3)
+[INIT] Kernels shape: (512, 512, 3, 3)
+[INIT] Kernels shape: (512, 512, 3, 3)
+ Epoch 1/1 bắt đầu...
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 56, 56])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 256, 56, 56])
+[FORWARD] Input shape before conversion: torch.Size([32, 256, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 512, 28, 28])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 512, 28, 28])
+[FORWARD] Input shape before conversion: torch.Size([32, 3, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 224, 224])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 64, 224, 224])
+[FORWARD] Input shape before conversion: torch.Size([32, 64, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
+[FORWARD] Output shape after conversion to PyTorch: torch.Size([32, 128, 112, 112])
+[FORWARD] Input shape before conversion: torch.Size([32, 128, 112, 112])
+[FORWARD] Converted input tensor from PyTorch to NumPy.
