@@ -660,7 +660,7 @@ import numpy as np
 from module import Conv2D  # Import lớp Conv2D bạn tự cài đặt
 
 # ✅ Ghi toàn bộ output vào train.log
-sys.stdout = open("train.log", "w")
+sys.stdout = open("train_loop.log", "w")
 
 # ==============================
 # 1️⃣ Tiền xử lý dữ liệu
@@ -686,25 +686,93 @@ val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 # ==============================
 # 2️⃣ Định nghĩa mô hình VGG16
 # ==============================
+# class VGG16(nn.Module):
+#     def __init__(self, num_classes=1):
+#         super(VGG16, self).__init__()
+
+#         self.conv1 = Conv2D(3, 64, kernel_size=3, stride=1, padding=1)
+#         self.conv2 = Conv2D(64, 64, kernel_size=3, stride=1, padding=1)
+
+#         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+
+#         self.conv3 = Conv2D(64, 128, kernel_size=3, stride=1, padding=1)
+#         self.conv4 = Conv2D(128, 128, kernel_size=3, stride=1, padding=1)
+
+#         self.conv5 = Conv2D(128, 256, kernel_size=3, stride=1, padding=1)
+#         self.conv6 = Conv2D(256, 256, kernel_size=3, stride=1, padding=1)
+#         self.conv7 = Conv2D(256, 256, kernel_size=3, stride=1, padding=1)
+
+#         self.conv8 = Conv2D(256, 512, kernel_size=3, stride=1, padding=1)
+#         self.conv9 = Conv2D(512, 512, kernel_size=3, stride=1, padding=1)
+#         self.conv10 = Conv2D(512, 512, kernel_size=3, stride=1, padding=1)
+
+#         self.adaptive_pool = nn.AdaptiveAvgPool2d((7, 7))
+
+#         self.classifier = nn.Sequential(
+#             nn.Linear(512 * 7 * 7, 4096),
+#             nn.ReLU(inplace=True),
+#             nn.Dropout(0.5),
+#             nn.Linear(4096, 4096),
+#             nn.ReLU(inplace=True),
+#             nn.Dropout(0.5),
+#             nn.Linear(4096, num_classes)
+#         )
+
+#     def forward(self, x):
+#         x = self.conv1.forward(x)
+#         x = self.conv2.forward(x)
+#         x = self.pool(x)
+
+#         x = self.conv3.forward(x)
+#         x = self.conv4.forward(x)
+#         x = self.pool(x)
+
+#         x = self.conv5.forward(x)
+#         x = self.conv6.forward(x)
+#         x = self.conv7.forward(x)
+#         x = self.pool(x)
+
+#         x = self.conv8.forward(x)
+#         x = self.conv9.forward(x)
+#         x = self.conv10.forward(x)
+#         x = self.pool(x)
+
+#         x = self.adaptive_pool(x)
+#         x = torch.flatten(x, start_dim=1)
+#         x = self.classifier(x)
+
+#         return x
+import torch
+import torch.nn as nn
+
+
+class Conv2DWrapper(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, lr=0.01):
+        super(Conv2DWrapper, self).__init__()
+        self.conv = Conv2D(in_channels, out_channels, kernel_size, stride, padding, lr)
+
+    def forward(self, x):
+        return self.conv.forward(x)  # Gọi forward của Conv2D tự viết
+
 class VGG16(nn.Module):
     def __init__(self, num_classes=1):
         super(VGG16, self).__init__()
 
-        self.conv1 = Conv2D(3, 64, kernel_size=3, stride=1, padding=1)
-        self.conv2 = Conv2D(64, 64, kernel_size=3, stride=1, padding=1)
+        self.conv1 = Conv2DWrapper(3, 64, kernel_size=3, stride=1, padding=1)
+        self.conv2 = Conv2DWrapper(64, 64, kernel_size=3, stride=1, padding=1)
 
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
-        self.conv3 = Conv2D(64, 128, kernel_size=3, stride=1, padding=1)
-        self.conv4 = Conv2D(128, 128, kernel_size=3, stride=1, padding=1)
+        self.conv3 = Conv2DWrapper(64, 128, kernel_size=3, stride=1, padding=1)
+        self.conv4 = Conv2DWrapper(128, 128, kernel_size=3, stride=1, padding=1)
 
-        self.conv5 = Conv2D(128, 256, kernel_size=3, stride=1, padding=1)
-        self.conv6 = Conv2D(256, 256, kernel_size=3, stride=1, padding=1)
-        self.conv7 = Conv2D(256, 256, kernel_size=3, stride=1, padding=1)
+        self.conv5 = Conv2DWrapper(128, 256, kernel_size=3, stride=1, padding=1)
+        self.conv6 = Conv2DWrapper(256, 256, kernel_size=3, stride=1, padding=1)
+        self.conv7 = Conv2DWrapper(256, 256, kernel_size=3, stride=1, padding=1)
 
-        self.conv8 = Conv2D(256, 512, kernel_size=3, stride=1, padding=1)
-        self.conv9 = Conv2D(512, 512, kernel_size=3, stride=1, padding=1)
-        self.conv10 = Conv2D(512, 512, kernel_size=3, stride=1, padding=1)
+        self.conv8 = Conv2DWrapper(256, 512, kernel_size=3, stride=1, padding=1)
+        self.conv9 = Conv2DWrapper(512, 512, kernel_size=3, stride=1, padding=1)
+        self.conv10 = Conv2DWrapper(512, 512, kernel_size=3, stride=1, padding=1)
 
         self.adaptive_pool = nn.AdaptiveAvgPool2d((7, 7))
 
@@ -719,22 +787,22 @@ class VGG16(nn.Module):
         )
 
     def forward(self, x):
-        x = self.conv1.forward(x)
-        x = self.conv2.forward(x)
+        x = self.conv1(x)
+        x = self.conv2(x)
         x = self.pool(x)
 
-        x = self.conv3.forward(x)
-        x = self.conv4.forward(x)
+        x = self.conv3(x)
+        x = self.conv4(x)
         x = self.pool(x)
 
-        x = self.conv5.forward(x)
-        x = self.conv6.forward(x)
-        x = self.conv7.forward(x)
+        x = self.conv5(x)
+        x = self.conv6(x)
+        x = self.conv7(x)
         x = self.pool(x)
 
-        x = self.conv8.forward(x)
-        x = self.conv9.forward(x)
-        x = self.conv10.forward(x)
+        x = self.conv8(x)
+        x = self.conv9(x)
+        x = self.conv10(x)
         x = self.pool(x)
 
         x = self.adaptive_pool(x)
