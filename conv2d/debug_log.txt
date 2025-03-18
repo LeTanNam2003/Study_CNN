@@ -1,0 +1,6 @@
+==== Debug Log ====
+
+Epoch 1/1
+PyTorch Conv2D Time: 0.001291 sec | Custom Conv2D Time: 0.034194 sec
+Kernel Gradients - Max Error: 1.000000, Mean Error: 0.999999
+Cosine Similarity of Kernels Gradients: 0.000000

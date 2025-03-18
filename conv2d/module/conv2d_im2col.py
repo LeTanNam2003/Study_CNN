@@ -203,10 +203,9 @@ class Conv2D:
         self.padding = padding
         self.lr = lr  
 
-        # Xavier Initialization
         limit = np.sqrt(6 / (in_channels + out_channels))
         self.kernels = np.random.uniform(-limit, limit, (out_channels, in_channels, kernel_size, kernel_size))
-        print(f"[INIT] Kernels shape: {self.kernels.shape}")
+        print(f"[INIT] Kernels shape: {self.kernels.shape}, mean: {self.kernels.mean():.6f}, std: {self.kernels.std():.6f}")
 
     def im2col(self, input, kernel_size, stride=1):
         batch_size, in_channels, H, W = input.shape
@@ -220,7 +219,10 @@ class Conv2D:
             for x in range(W_out):
                 cols[:, y, x, :, :, :] = input[:, :, y * stride:y * stride + k, x * stride:x * stride + k]
 
-        return cols.reshape(batch_size * H_out * W_out, in_channels * k * k)
+        cols_flat = cols.reshape(batch_size * H_out * W_out, in_channels * k * k)
+        print(f"[IM2COL] Output shape: {cols_flat.shape}, mean: {cols_flat.mean():.6f}, std: {cols_flat.std():.6f}")
+
+        return cols_flat
 
     def forward(self, input_tensor):
         print(f"[FORWARD] Input shape: {input_tensor.shape}")
@@ -244,7 +246,7 @@ class Conv2D:
         output = output.transpose(0, 3, 1, 2)
 
         output_tensor = torch.tensor(output, dtype=torch.float32)
-        print(f"[FORWARD] Output shape: {output_tensor.shape}, min: {output_tensor.min()}, max: {output_tensor.max()}")
+        print(f"[FORWARD] Output shape: {output_tensor.shape}, min: {output_tensor.min():.6f}, max: {output_tensor.max():.6f}, mean: {output_tensor.mean():.6f}, std: {output_tensor.std():.6f}")
 
         self.input = input_tensor
         return output_tensor
@@ -264,7 +266,7 @@ class Conv2D:
         d_kernels = d_output_col.T @ input_col  
         d_kernels = d_kernels.reshape(out_channels, in_channels, kernel_size, kernel_size)
         
-        print(f"[GRADIENT] Kernel Gradient shape: {d_kernels.shape}, min: {d_kernels.min()}, max: {d_kernels.max()}")
+        print(f"[GRADIENT] Kernel Gradient shape: {d_kernels.shape}, min: {d_kernels.min():.6f}, max: {d_kernels.max():.6f}, mean: {d_kernels.mean():.6f}, std: {d_kernels.std():.6f}")
         
         d_input_col = d_output_col @ self.kernels.reshape(out_channels, -1)  
         d_input = self.col2im(d_input_col, self.input.shape, kernel_size, self.stride)
@@ -273,7 +275,7 @@ class Conv2D:
             d_input = d_input[:, :, self.padding:-self.padding, self.padding:-self.padding]
 
         self.kernels -= self.lr * d_kernels  
-        print(f"[UPDATE] Kernels updated, min: {self.kernels.min()}, max: {self.kernels.max()}")
+        print(f"[UPDATE] Kernels updated, min: {self.kernels.min():.6f}, max: {self.kernels.max():.6f}, mean: {self.kernels.mean():.6f}, std: {self.kernels.std():.6f}")
 
         return d_input, d_kernels
     
@@ -295,7 +297,8 @@ class Conv2D:
             for x in range(W_out):
                 d_input[:, :, y * stride:y * stride + k, x * stride:x * stride + k] += cols_reshaped[:, y, x, :, :, :]
 
-        print(f"[DEBUG] col2im output shape: {d_input.shape}")
+        print(f"[COL2IM] Output shape: {d_input.shape}, min: {d_input.min():.6f}, max: {d_input.max():.6f}, mean: {d_input.mean():.6f}, std: {d_input.std():.6f}")
         return d_input
+
 
 
