@@ -296,8 +296,13 @@ class Conv2D:
         for y in range(H_out):
             for x in range(W_out):
                 d_input[:, :, y * stride:y * stride + k, x * stride:x * stride + k] += cols_reshaped[:, y, x, :, :, :]
+        
 
         print(f"[COL2IM] Output shape: {d_input.shape}, min: {d_input.min():.6f}, max: {d_input.max():.6f}, mean: {d_input.mean():.6f}, std: {d_input.std():.6f}")
+        if H > 128 or W > 128:
+            extra_region = d_input[:, :, 128:, 128:]
+            print(f"[CHECK COL2IM] Extra region (128:, 128:): min={extra_region.min():.6f}, max={extra_region.max():.6f}, mean={extra_region.mean():.6f}")
+
         return d_input
 
 
